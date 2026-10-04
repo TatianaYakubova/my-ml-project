@@ -1,0 +1,11 @@
+data:
+  path: "data/housing.csv"
+  target: "median_house_value"
+  test_size: 0.2
+  random_state: 42
+
+model:
+  output_path: "models/my_model.pkl"
+  n_estimators: 100
+  max_depth: 10
+  random_state: 42
