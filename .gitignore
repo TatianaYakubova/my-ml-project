@@ -1,0 +1,27 @@
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Данные и модели (они не должны попадать в Git)
+data/
+models/
+*.pkl
+*.joblib
+*.h5
+
+# Секреты
+.env
+
+# IDE
+.vscode/
+.idea/
