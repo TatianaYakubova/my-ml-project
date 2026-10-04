@@ -13,8 +13,8 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Данные и модели (они не должны попадать в Git)
-data/
-models/
+/data/
+/models/
 *.pkl
 *.joblib
 *.h5
